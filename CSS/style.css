@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Work+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container1 {
+     max-width: 1181px;
+     padding-left: 40px;
+     padding-right: 40px;
+     width: 100%;
+     margin: auto;
+}
+
+nav {
+     max-width: 1110px;
+     position: sticky;
+     top: 0;
+     width: 100%;
+}
+
+ul li {
+     list-style-type: none;
+     display: inline-block;
+     padding-left: 30px;
+}
+
+ul li a {
+     text-decoration: none;
+     color: black;
+}
+
+.togle {
+     display: none;
+}
+
+.container-fluid {
+     max-width: 1112px;
+     width: 100%;
+}
+
+.smart {
+     color: #98A2B3;
+     font-size: 25px;
+}
+
+.conect {
+     color: #475647;
+}
+
+.second {
+     max-width: 1112px;
+     width: 100%;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+
+.master {
+     max-width: 1110px;
+     width: 100%;
+}
+
+.featured {
+     max-width: 477px;
+     width: 100%;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 600;
+     font-size: 50px;
+}
+
+.products {
+     max-width: 1110px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     gap: 15px;
+     margin: auto;
+}
+
+.mini {
+     max-width: 255px;
+     width: 100%;
+     border: 1px solid #E4E7EC;
+     font-family: 'Work Sans', sans-serif;
+     box-shadow: 0px 0px 1px 1px rgba(228, 231, 236, 0.15);
+}
+
+.rating {
+     max-width: 74px;
+     width: 100%;
+}
+
+.game {
+     max-width: 218px;
+     width: 100%;
+     font-family: 'Work Sans', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.dollor {
+     max-width: 225px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.dollor h3 {
+     font-size: 18px;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 600;
+}
+
+.add {
+     max-width: 67px;
+     width: 100%;
+     font-family: 'Work Sans', sans-serif;
+     font-size: 12px;
+     border: none;
+     height: 23px;
+}
+
+.explore {
+     max-width: 553px;
+     width: 100%;
+     font-family: 'Work Sans', sans-serif;
+     font-size: 50px;
+     font-weight: 600;
+}
+
+.category {
+     max-width: 522px;
+     width: 100%;
+     font-family: 'Merriweather', serif;
+     font-weight: 400;
+     text-align: center;
+     letter-spacing: 0.72px;
+}
+
+.popular {
+     max-width: 475px;
+     width: 100%;
+     border: 1px solid #D1DAE8;
+     margin: auto;
+     box-shadow: 0px 3px 6px 0px rgba(219, 220, 222, 0.17);
+}
+
+.ten {
+     max-width: 411px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.how {
+     max-width: 165px;
+     width: 100%;
+     border-radius: 48px;
+     background: #FFF3EA;
+     margin: auto;
+     font-family: 'Work Sans', sans-serif;
+}
+
+.cross {
+     max-width: 659px;
+     width: 100%;
+     font-size: 50px;
+     font-weight: 600;
+     margin: auto;
+     font-family: 'Work Sans', sans-serif;
+}
+
+.start {
+     display: flex;
+     flex-wrap: wrap;
+     /* margin-left: 10%; */
+     gap: 25px;
+     margin: auto;
+}
+
+.plan {
+     max-width: 285px;
+     width: 100%;
+     margin: auto;
+     background: #FFF3EA;
+     padding: 15px;
+     border-radius: 8px;
+}
+
+.plan>h3 {
+     max-width: 163px;
+     width: 100%;
+     font-family: 'Work Sans', sans-serif;
+     font-size: 32px;
+     font-weight: 500;
+     margin: auto;
+}
+
+.plan>p {
+     max-width: 143px;
+     width: 100%;
+     font-weight: 400;
+     font-family: 'Work Sans', sans-serif;
+     margin: auto;
+}
+
+.connect {
+     background: #FDE2E4;
+}
+
+.match {
+     background: #DBECE5;
+}
+
+.compelete {
+     background: #DBECE5;
+}
+
+.review {
+     background: #D1ECFD;
+}
+
+.subscribe {
+     max-width: 1110px;
+     width: 100%;
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     color: #fff;
+     justify-content: space-around;
+     background: #006D77;
+     margin: auto
+}
+
+.email {
+     text-align: start;
+}
+
+.news {
+     max-width: 501px;
+     width: 100%;
+     font-size: 40px;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 500;
+}
+
+.click {
+     max-width: 485px;
+     width: 100%;
+     font-family: 'Merriweather', serif;
+     font-weight: 300;
+     letter-spacing: 0.72px;
+     text-align: start;
+}
+
+input {
+     max-width: 360px;
+     padding: 5px;
+     width: 100%;
+     font-weight: 500;
+     font-size: 40px;
+     font-family: 'Work Sans', sans-serif;
+     border-radius: 53px;
+     border: solid 1px;
+     box-shadow: 0px 0px 11px 1px rgba(194, 194, 194, 0.06);
+}
+
+.send {
+     position: relative;
+     background-color: #006D77;
+     padding: 5px;
+     margin-left: -8%;
+     border-radius: 50px;
+     filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.10));
+}
+
+.group {
+     max-width: 335px;
+     width: 100%;
+}
+
+.group>img {
+     width: 100%;
+}
+
+footer {
+     max-width: 1110px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin: auto;
+     margin-top: 5%;
+}
+
+.contact h2 {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 18px;
+     color: #101828;
+     font-weight: 500;
+}
+
+.contact p {
+     max-width: 204px;
+     width: 100%;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+}
+
+.contact a {
+     text-decoration: none;
+}
+
+.social {
+     max-width: 116px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+
+     .container1 {
+          padding-left: 0px;
+          padding-right: 0px;
+     }
+     nav{
+          position: relative;
+     }
+     .first {
+          width: 100%;
+          display: none;
+          text-align: center;
+          position: absolute;
+          top: 100%;
+          left: 0;
+     }
+     ul{
+          /* width: 100%; */
+          display: flex;
+          flex-direction: column;
+          padding: 0px !important;
+          text-align: center;
+          background-color: black;
+     }
+     ul li{
+          padding: 0px !important;
+     }
+     ul li a{
+          color: white;
+          font-size: 20px;
+     }
+     .togle {
+          display: block;
+     }
+
+     .parent {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .second {
+          padding-left: 15px;
+          padding-right: 15px;
+     }
+
+     .products {
+          display: grid;
+          grid-template-columns: auto;
+          gap: 15px;
+     }
+
+     .start {
+          display: flex;
+          margin: auto;
+          gap: 25px;
+     }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+     body {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     nav{
+          position: relative;
+     }
+     .first {
+          width: 100%;
+          display: none;
+          text-align: center;
+          position: absolute;
+          top: 100%;
+          left: 0;
+     }
+     ul{
+          /* width: 100%; */
+          display: flex;
+          flex-direction: column;
+          padding: 0px !important;
+          text-align: center;
+          background-color: black;
+     }
+     ul li{
+          padding: 0px !important;
+     }
+     ul li a{
+          color: white;
+          font-size: 20px;
+     }
+
+     .parent {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .products {
+          display: grid;
+          grid-template-columns: auto auto;
+          gap: 15px;
+     }
+
+     .start {
+          display: flex;
+          gap: 25px;
+     }
+     .togle{
+          display: block;
+     }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+     .products {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 15px;
+     }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {}
